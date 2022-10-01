@@ -1,0 +1,86 @@
+
+.subscribe-button{   /* this is called a css selector, also this is how to comment in CSS code */
+background-color: rgb(200, 0, 0); /*the background color is called a css property and the red is called a css value */
+color: white; /* changes the color of the text */
+border: none; 
+height: 36px; /*height of the button in pixels*/
+width: 105px;
+border-radius: 4px; /*makes the button rounded*/
+cursor: pointer;
+margin-right: 8px; /*makes the space betweeen buttons*/
+transition: opacity 0.15s; /* this lets the transition between the two super smooth*/
+
+}
+
+.subscribe-button:hover{ /* this is known as a suedo class, this only works when we hover over it */
+background-color: red;
+opacity: 0.8; 
+}
+
+.subscribe-button:active{ /* this is anouther suedo class that works when we click the button*/
+background-color: black;
+opacity: 0.5;
+}
+
+.join-button{  /*we can add all tthe things we need to customize in one style element */
+background-color: white;
+border-color: rgb(41, 118, 211);
+border-style:sold; /* makes the it solid color all around border*/
+border-width: 1px;
+color: rgb(41, 118, 211);
+height: 36px;
+width: 62px;
+border-radius: 4px;
+cursor: pointer;
+margin-right:8px;
+transition: background-color 0.8s, color 0.8s;
+}
+
+.join-button:hover{
+background-color: rgb(41, 118, 211);
+color:  white;
+
+}
+
+.join-button:active{
+opacity: 0.7;
+}
+
+.tweet-button{ 
+background-color :rgb(2, 158, 255);
+color: white;
+border: none;
+height: 36px;
+width: 80px;
+border-radius: 18px;
+cursor: pointer;
+font-weight: bold; /* makes the font bold */
+font-size: 15px;  /*makes the font bigger */
+transition: box-shadow 0.5; 
+
+}
+
+.tweet-button:hover{
+box-shadow: 5px 5px 10px rgba(0,0,0,0.15);  /*how to create shadows*/
+
+}
+
+.padded{
+background-color:coral;
+border-color: black;
+border-width: 2px;
+border-style: solid;
+border-radius: 8px;
+padding-left: 8px; /*instead of using height,widht we use the padding so if we need to add text it doesnt make the button look weird*/
+padding-right: 8px;
+padding-top: 10px;
+padding-bottom: 10px;
+transition: background-color 0.5s;
+vertical-align: top;
+margin-left: 8px;
+
+}
+
+.padded:hover{
+background-color: yellowgreen;
+}

@@ -1,0 +1,46 @@
+.sidebar{
+  position: fixed;
+  left: 0px;
+  bottom : 0px;
+  top: 60px;
+
+  background-color: white;
+  width: 70px;
+
+
+  border-right-color: rgb(185,185,185);
+  z-index: 300;
+  padding-top: 4px;
+
+}
+
+/* remeber flex box goes inside the WHOLE sidebar not images */
+.sidebar-link{
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* displays elements vertically */
+
+
+}
+
+.sidebar-link:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+
+/* this css selector selects all the images in the sidebar div*/
+.sidebar-link img{
+  height: 24px;
+  margin-bottom: 4px;
+
+}
+
+/* targets all divs in the sidebar-link but NOT images*/
+.sidebar-link div{
+  font-family: Roboto,Arial;
+  font-size: 10px;
+
+}

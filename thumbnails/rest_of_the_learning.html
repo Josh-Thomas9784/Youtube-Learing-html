@@ -1,0 +1,33 @@
+<!-- how to import images-->
+<!-- how to create a search bar -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thumbnail practice</title>
+    <style>
+      /* how to style a pic*/
+      .thumbnail{
+        width: 300px; /*how to change pic, also height also changes*/
+        height: 300px;
+        object-fit: contain; /*when a pic dimensions are messed up, we can use this element to make the pic cover the 300x300 area*/
+        /* or we could do "object-fit: cover" to cover the certain area*/
+      }
+      .search-bar{
+        font-size: 20px;
+        margin-left: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- how to import (img element)-->
+    <img class = "thumbnail" src="thumbnails/youtube_lite_img1.jpg">
+
+    <!-- this is how to make a text box, also using user interface a little-->
+    <input class = "search-bar" type="text" placeholder = "search">
+    <!-- this makes the text box have a word in it that disappears when u type in it-->
+
+    <!-- how to make a checkbox-->
+    <input type="checkbox"> 
+  </body>
+</html>

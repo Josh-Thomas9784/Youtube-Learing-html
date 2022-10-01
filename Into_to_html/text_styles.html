@@ -1,0 +1,95 @@
+<!-- learning how to style text -->
+<style>
+  p{
+    font-family: Arial; /* this applies to EVERY paragraph, so i dont have to write it over again( 4 times) */
+  }
+  
+  .title{
+    font-family: Arial; /* how to change font*/
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;     /* add the space between each letter */
+    line-height:24px;  /* adds height  between each letter */
+    margin-bottom: 0px;
+    } 
+
+  .stats{
+    font-size: 14p;
+    color: rgb(44, 44, 44);
+    margin-top: 10px;
+  }
+
+  .guy{
+    font-size: 14px;
+    color: rgb(44, 44, 44);
+    margin-top: 20px;
+    }
+    
+  .describe{
+    font-size: 14px;
+    color: rgb(44, 44, 44);
+    margin-top: 20px;
+    width: 280px;
+    line-height: 22px;
+    margin-bottom: 100px;
+    }
+
+  .apple{
+    font-size: 14px;
+    background-color: rgb(227,65,64);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom:90px;
+
+    }
+
+  .exp{
+    color: red; /* making this text a span attribute will allow us to use it more flexibly */
+    margin-left: 20px;
+  }
+
+  .exp1{
+    cursor:pointer;
+  }
+
+  .exp1:hover{
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- P come with margins as default -->
+<p class="title">
+  Talking Tech and AI with Google CEO Sundar Pichai!
+</p>
+
+<p class="stats"> 
+  3.4M views &#183; 6 months ago
+</p>
+
+<p class="guy">
+  Marques Brownlee &#10003; <!-- this is called a html entity (like special code for things) -->
+</p>
+
+<p class=" describe">
+  If you looking here ur werid, this is a test for the html text styles using css.
+  This is practice so that Joshua becomes the best coder in the whole wide world.
+  Even tho his grammer is very wrong. however this joshua is massive.
+  Which means anything he does doestn matter to anything because he is massive. 
+  Also today is August 5th, which means Happy Birthday Hoel. 
+  This concluds the long but text.
+</p>
+
+<p class="apple">
+  Shop early for the best selection of holiday favourites.
+  <span class="exp1">Shop now &#62;</span>
+</p>
+
+<p>
+  Shop early for the <strong>best selection
+  </strong> of <u>holiday</u> 
+  <span class="exp">favourites</span>.
+</p>

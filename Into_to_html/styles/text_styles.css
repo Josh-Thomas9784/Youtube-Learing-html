@@ -1,0 +1,58 @@
+
+p{
+font-family: Roboto; 
+}
+
+.title{
+font-size: 20px;
+font-weight: bold;
+width: 300px;    
+line-height:24px;  
+margin-bottom: 0px;
+} 
+
+.stats{
+font-size: 14p;
+color: rgb(44, 44, 44);
+margin-top: 10px;
+}
+
+.guy{
+font-size: 14px;
+color: rgb(44, 44, 44);
+margin-top: 20px;
+}
+
+.describe{
+font-size: 14px;
+color: rgb(44, 44, 44);
+margin-top: 20px;
+width: 280px;
+line-height: 22px;
+margin-bottom: 100px;
+}
+
+.apple{
+font-size: 14px;
+background-color: rgb(227,65,64);
+color: white;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-bottom:90px;
+
+}
+
+.exp{
+color: red;
+margin-left: 20px;
+}
+
+.exp1{
+cursor:pointer;
+}
+
+.exp1:hover{
+text-decoration: underline;
+}
+
